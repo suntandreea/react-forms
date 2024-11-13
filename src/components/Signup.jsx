@@ -13,6 +13,8 @@ export default function Signup() {
     // manually add missing data for multiple checked boxes!
     data.acquisition = acquisition;
     console.log(data);
+
+    event.target.reset();
   }
 
   return (
